@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Outfit:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Outfit:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Outfit:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Outfit:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.cdnfonts.com/css/outfit');
+@import url('https://fonts.cdnfonts.com/css/athletic-outfit');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Nunito:wght@300&family=Outfit:wght@300&family=Roboto:ital,wght@0,300;1,100&display=swap');
+header,main,footer{
+    overflow: hidden;
+}
+.mainflex{
+background-color: #ecdec1;
+display: flex;
+width:150%;
+height:50px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style-type:none;
+    margin-left: 80px;
+}
+.headerultag li a{
+    list-style-type:none;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 40px;
+    text-decoration: none;
+    color:black;
+    position: relative;
+    left:80px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+img.logoimg{
+    margin-left: 100px;
+    position: relative;
+    left:20px;
+    top:3px;
+}
+a.highlights{
+    color:#db4835 !important;
+}
+.headericons{
+    position: relative;
+    bottom:33px;
+    left:960px;
+}
+.subdivone{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+
+}
+.Aboutus{
+background-color: #fcf7ed;
+font-size: 25px;
+/* width:100%;
+height:50px; */
+}
+.Beautician{
+font-size: 15px;
+margin-top: 40px;
+}
+.Premium{
+font-size: 25px;
+}
+ .subdivtwo{
+    display: flex;
+} 
+.Aboutimgone{
+    width:600px;
+    height:400px;
+
+padding-right: 40px;
+padding-left: 40px;
+padding-top: 15px;
+
+
+}
+.Aboutimgtwo{
+    width:600px;
+    height:400px;
+    padding-top: 15px;
+padding-right: 20px;
+
+    
+}
+.imgone{
+    width:600px;
+    height:400px;
+
+padding-right: 10px;
+
+}
+.imgtwo{
+    width:600px;
+    height:400px;
+    padding-right: 10px;
+}
+.imgthree{
+    width:600px;
+    height:400px;
+    padding-right: 10px;
+}
+.imgfour{
+    width:600px;
+    height:400px;
+    padding-right: 10px;
+}
+.MaindivContents{
+    display: flex;
+}
+.contents{
+padding: 10px 50px 0px 190px;
+}
+.contentstwo{
+    padding: 10px 50px 0px 190px;
+
+}
+.Lorem{
+    position: relative;
+    right:55px;
+    font-family: 'Nunito', sans-serif;
+    width: max-content;
+}
+.Organic{
+    position: relative;
+    left:70px;
+    font-family: 'Nunito', sans-serif;;
+}
+.button{
+    position: relative;
+    left:70px;
+    font-family: 'Nunito', sans-serif;;
+}
+button{
+   
+    font-family: 'Nunito', sans-serif;
+}
+.shopnow{
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+h4{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+.Maindivtwo{
+    display: flex;
+    margin-left: 10px;
+}
+.Name{
+    text-align: center;
+    font-family: 'Outfit',sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.Designation{
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Outfit',sans-serif;
+    font-size: 20px;
+}
+div.footermaindiv{
+    position: relative;
+    top:20px ;
+    background-color:#eec7ad;
+    width:100%;
+    height:310px;
+    
+}
+div.footermaindiv{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 60px;
+  
+}
+div.footersubdivone{
+
+width:175px;
+height:180px;
+margin-top: 40px;
+margin-left: 20px;
+}
+.lilac{
+  font-family: 'Nanum Brush Script', cursive;
+  font-size: 23px;
+  margin-top: 20px;
+}
+.curabitur{
+ font-size:13px;
+ font-weight: lighter;
+ letter-spacing: 0.25px;
+ font-family: 'Lato',sans-serif;
+ line-height: 20px;margin-bottom: 20px;
+}
+div.footersubdivtwo{
+    margin-top:40px;
+    margin-left: 30px;
+    width:196px;
+    height:2000px;
+    justify-content: space-around;
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+}
+img.socialmedia{
+    margin-bottom: 25px;
+    width:20px;
+    height:80px;
+}
+.social{
+  font-size: 24px;
+}
+.socialmediaicons{
+position: relative;
+bottom:110px;
+font-weight: lighter;
+
+}
+li.socialicons{
+   
+    padding:2px 0px 11px 38px;
+    font-family:'Lato', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+}
+
+
+div.footersubdivthree{
+    margin-top:40px;
+    padding-right:45px;
+    list-style-type: none;
+}
+.links{
+    position: relative;
+    right: 30px;
+    bottom: 5px;
+    font-family:'Lato', sans-serif;
+    padding: 2px 1px 20px 0px;
+}
+.Quick{
+font-weight: lighter;
+padding:5px 2px 9px 38px;
+font-family:'Lato', sans-serif;
+font-size:14px;
+letter-spacing: 0.25px;
+}
+div.footersubdivfour{
+    margin-top:40px;
+   width:230px;
+   height:250px;
+   justify-content: space-around;
+   font-family: 'Lato', sans-serif;
+   list-style-type: none;
+}
+
+.get{
+  font-size: 14px;
+  margin-bottom: 13px;
+  letter-spacing: 0.25px;
+}
+
+.gets{
+    
+    font-weight: lighter;
+    padding: 0px 2px 5px 1px;
+    font-family:'Lato', sans-serif;
+    margin-left: 29px;
+    position: relative;
+    bottom: 82px;
+    font-size: 15px;
+}
+.getMaj{
+   
+    font-family:'Lato', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    position: absolute;
+    bottom: -32px;
+}
+.getin{
+    
+    width:15px;
+    height:80px;
+}
+.footersubdivfive{
+  font-size: 15px;
+    font-family:'Lato', sans-serif; 
+    margin-top: 20px;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.signup{
+  letter-spacing: 0.25px;
+  font-weight: lighter;
+}
+h3{
+    font-size: 30px;
+    font-family:'Lato', sans-serif;
+}
+p.copyright{
+    color:black;
+    position: relative;
+    top:20px;
+    bottom:30px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family:'Lato', sans-serif;
+    font-weight: bold;
+}
+.newsletter{
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+.emailbutton{
+    border-radius: 5px;
+    border: none;
+    font-size: 13px;
+    width: 145px;
+    height: 32px;
+    font-family: 'Lato',sans-serif;
+    padding-right: 19px;
+    padding-top: 6px;
+   
+  }
+  .buttonimg{
+  position: relative;
+  right: 30px;
+      top: 5px;
+  }
+  .footerbutton{
+    
+    background-image: url("Multiimg/footerbutton.png" );
+    background-repeat: no-repeat;
+  }
+

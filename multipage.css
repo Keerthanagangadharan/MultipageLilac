@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.headerultag{
+    display: flex;
+    justify-content: space-between;
+}
+.headerultag li{
+    list-style-type: none;
+    margin: 10px 50px;
+}
+
+.headerultag li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.mainheader{
+    display: flex;
+    justify-content: space-between;
+}
+.subheaderone h1{
+    margin: 10px 260px 10px 30px;
+    color: #EC7A1C;
+    font-family: 'Lacquer', cursive;
+}
+header{
+    background: url(multipagebanner.png);
+    height: 600px;
+}
+.highlights{
+    color: #EC7A1C !important;
+}
+
+@media screen and (max-width:412px) {
+    header {
+        background: url(multipagebanner.png);
+        height: 700px;
+        width: 100%;
+        overflow: hidden;
+        background-size: 600px;
+        background-repeat: no-repeat;
+    }
+    .mainheader{
+        display: block;
+    }
+    .headerultag{
+        display: block;
+    }
+    
+}
